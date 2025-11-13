@@ -11,3 +11,9 @@ import math
 raio_circulo = float(input("Digite o raio do círculo: "))
 area_circulo = math.pi * raio_circulo ** 2
 print(f"{area_circulo:.2f}")
+
+# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente
+
+data = str(input("insira um data no formato dd/mm/aaaa: "))
+data_formatada = data.split("/")
+print(f"Dia: {data_formatada[0]}\nMês: {data_formatada[1]}\nAno: {data_formatada[2]}")
